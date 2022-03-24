@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./code.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.socail-inocs {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999999;
+}
+.socail-inocs ul {
+  margin: 0;
+  padding: 0;
+}
+
+.socail-inocs ul li {
+  list-style: none;
+}
+
+.socail-inocs ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  background-color: white;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 43px;
+  text-align: right;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transform: translateX(-72%);
+  transition: 0.5s;
+}
+
+.socail-inocs ul li a i {
+  font-size: 18px;
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.socail-inocs ul li .facebook {
+  background-color: #1196f5;
+}
+.socail-inocs ul li .instagram {
+  background-color: #ea6bd6;
+}
+.socail-inocs ul li .twitter {
+  background-color: #1da1f2;
+}
+.socail-inocs ul li .youtube {
+  background-color: #e72410;
+}
+
+/*  hover */
+
+.socail-inocs ul li a:hover {
+  transform: translateX(-3%);
+}
+.socail-inocs ul li a:hover i {
+  background-color: gray;
+  border-radius: 50%;
+}
+
+/* for stying batch name */
+
+.batch-text {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+}
+.batch-text img {
+  width: 150px;
+  transform: translateX(50px);
+}
+
+.batch-text h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.404);
+}
+.batch-text h2 {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.658);
+}
